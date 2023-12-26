@@ -1,11 +1,13 @@
 # chickenMariaDBClient
 MySQL/Maria DB connector binding for Chicken Scheme
 
-Build:
+# Build:
+
 csc -s chicken-mariadb-client.scm -emit-import-library chicken-mariadb-client -lmysqlclient 
 
 
-Select:
+# Select:
+
 #;1> (use chicken-mariadb-client)
 
 #;2> (connect "user" "password" "db")
@@ -26,7 +28,7 @@ Select:
 
 
 
-Bind:
+# Bind:
 
 #;1> (use chicken-mariadb-client)
 
@@ -51,7 +53,7 @@ Bind:
 1
 
 
-More documentation coming soon!
+# More documentation coming soon!
 
 
 
