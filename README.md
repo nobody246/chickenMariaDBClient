@@ -1,6 +1,10 @@
 # chickenMariaDBClient
 MySQL/Maria DB connector binding for Chicken Scheme
 
+Released under LGPL v2 or MIT (your choice of either)
+
+I'm not responsible for anything.
+
 # Build:
 
 csc -s chicken-mariadb-client.scm -emit-import-library chicken-mariadb-client -lmysqlclient 
