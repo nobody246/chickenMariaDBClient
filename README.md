@@ -52,7 +52,7 @@ csc -s chicken-mariadb-client.scm -emit-import-library chicken-mariadb-client -l
 
 1
 
-#;5) (execute)
+#;5> (execute)
 
 1
 
