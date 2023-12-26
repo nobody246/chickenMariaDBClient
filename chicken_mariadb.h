@@ -6,9 +6,8 @@
 */
 
 #include <mysql/mysql.h>
-#include <time.h>
 #include <string.h>
-#include <stdbool.h>
+
 
 
 MYSQL* con = NULL;
