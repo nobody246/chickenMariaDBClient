@@ -4,12 +4,20 @@
                                         ;I'm not responsible for anything.
 
 [module
-    chicken-mariadb-client
-    *
+  chicken-mariadb-client
+  (export connect-server connect prepare bind-string-type bind-string
+          bind-datetime bind-tiny-int bind-short-int bind-int bind-long-int
+          bind-double bind-float execute get-field-count get-row get-string-value
+          get-tiny-int-value get-short-int-value get-int-value get-long-int-value
+          get-float-value get-double-value get-datetime-value null-check-datetime
+          null-check-string null-check-tiny-int null-check-short-int null-check-int
+          null-check-long-int null-check-float null-check-double get-col-datatype
+          get-result-status get-row-values mdb-error mdb-errno close-connection
+          datatypes)
   (import scheme chicken foreign data-structures)
-
-
+  
   (foreign-declare "#include \"chicken_mariadb.h\"")
+  
   (define-syntax $n
     (syntax-rules ()
       (($n body)
