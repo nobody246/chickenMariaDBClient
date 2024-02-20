@@ -1,8 +1,7 @@
 /*
-  Chicken Scheme MariaDB Connector
-  (c) 12-25-2023 github.com/nobody246 Alex S. a.se8seven(a)gm
-  Released under LGPL v2 or MIT (your choice of either) 
-  I'm not responsible for anything.
+                                        Chicken Scheme MariaDB Connector
+                                        (c) 2023 Alex Semotan
+                                        Released under MIT
 */
 
 #include <mysql/mysql.h>
