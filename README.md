@@ -1,9 +1,8 @@
 # chickenMariaDBClient
 MySQL/Maria DB connector binding for Chicken Scheme with parameterized queries.
 
-Released under LGPL v2 or MIT (your choice of either)
+Released under MIT
 
-I'm not responsible for anything.
 
 # Build:
 
