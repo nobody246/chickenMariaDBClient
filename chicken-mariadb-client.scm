@@ -1,5 +1,5 @@
                                         ;Chicken Scheme MariaDB Connector
-                                        ;(c) 12-25-2023 github.com/nobody246 Alex S. a.se8seven(a)gm
+                                        ;(c) 12-25-2023 github.com/nobody246 Alex Semotan
                                         ;Released under MIT
                                         
 
