@@ -1,6 +1,6 @@
 /*
                                         ;Chicken Scheme MariaDB Connector
-                                        ;(c) 2024 Alex Semotan
+                                        ;(c) 2023, 2024 Alex Semotan
                                         ;Released under MIT License
 */
 
