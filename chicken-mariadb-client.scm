@@ -1,6 +1,6 @@
                                         ;Chicken Scheme MariaDB Connector
-                                        ;(c) 2023 Alex Semotan
-                                        ;Released under MIT
+                                        ;Chicken MariaDB Client (c) 2024 Alex Semotan
+                                        ;Released under MIT License
                                         
 
 [module
